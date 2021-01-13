@@ -1,0 +1,84 @@
+@import "reset.css";
+
+* {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    background-size: auto;
+}
+.image {
+    width: 80%;
+    height: 550px;
+}
+
+h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 3.5em;
+    position: relative;
+    text-align: center;
+    bottom: 370px;
+}
+
+#intro article {
+    color: grey;
+    font-size: 1.5em;
+    font-weight: lighter;
+    position: relative;
+    text-align: justify;
+    bottom: 50px;
+    padding: 0px 200px 0px;
+    margin-top: 20px;
+}
+
+#igredients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#igredients img {
+    widows: 50%;
+    height: 100px;
+    border-bottom: 3px solid black;
+
+}
+
+#igredients article {
+    font-size: 25px;
+    padding: 50px 0px;
+}
+
+#igredients li {
+font-size: 20px;
+
+}
+
+#instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#instructions img {
+    width:40%;
+    height: 100px;
+    border-bottom: 3px solid black;
+
+}
+
+#instructions article {
+    font-size: 25px;
+}
+
+#instructions article {
+    padding: 90px 300px ;
+}
+#instructions li {
+    font-size: 20px;
+    text-align: justify;50px
+    padding: 20px 50px;
+}
